@@ -27,6 +27,7 @@
 </div>
 </div>     
 </form>
+<div id="image" style="width:10%;"></div>
 </div>
 </body>
 <script type="text/javascript">
@@ -49,6 +50,7 @@ processData: false,
 success: (data) => {
 this.reset();
 alert('File has been uploaded successfully');
+$('#image').append('<img src="{{url('/')}}/uploads/'+data.body+'"/>');
 console.log(data);
 },
 error: function(data){

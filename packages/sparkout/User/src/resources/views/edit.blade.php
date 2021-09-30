@@ -19,12 +19,12 @@
    <div class="col-md-12"> 
 
    <div class="form-group">
-    <label for="formGroup">Name</label>
+    <label for="formGroup">Name </label>
       <<input type="text" class="form-control" name="name" value= "{{ $user->name }}" placeholder="Name">
       </div>
 
       <div class="form-group">
-    <label for="formGroup">Email</label>
+    <label for="formGroup">Email </label>
       <input type="text" class="form-control" name="email" value= "{{ $user->email }}" placeholder="Email">
       </div>
        <br>

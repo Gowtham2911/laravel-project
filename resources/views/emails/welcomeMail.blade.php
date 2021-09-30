@@ -1,8 +1,8 @@
 @component('mail::message')
 
 
-<p>{{$details['name']}}</p>
-<p>{{$details['password']}}</p>
+<p>User name : {{$details['name']}}</p>
+<p>Password : {{$details['password']}}</p>
 
 
 Thanks,<br>
