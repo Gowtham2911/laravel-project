@@ -15,6 +15,7 @@
   <h6 style="text-align:center;">{{ $message}}</h6>
   </div>
   @endif
+  
   <div class="container" style="padding-top: 5%;">
     <div class="card-body col-md-12">
 
