@@ -40,6 +40,7 @@ headers: {
 $('#laravel-ajax-file-upload').submit(function(e) {
 e.preventDefault();
 var formData = new FormData(this);
+
 $.ajax({
 type:'POST',
 url: "{{ url('/store-file')}}",

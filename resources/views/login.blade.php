@@ -18,8 +18,8 @@
 @endif
 <div class="col-sm-3">
 <div class="form-group">
-<label>Name:</label>
-<input type="text" name="name" class="form-control" placeholder="Enter your name">
+<label>Email:</label>
+<input type="text" name="email" class="form-control" placeholder="Enter your mail">
 </div>
 
 

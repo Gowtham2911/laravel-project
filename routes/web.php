@@ -21,4 +21,4 @@ Route::get('/', function () {
 Route::get('/register','App\Http\Controllers\ValidationController@registerValidation')->name('form');
 Route::post('/post-register', 'App\Http\Controllers\ValidationController@validateRegister')->name('valid');
 Route::get('/login', 'App\Http\Controllers\ValidationController@loginpage')->name('login');
-Route::post('/post-login', 'App\Http\Controllers\ValidationController@loginform')->name('auth');
+Route::post('/post-login', 'App\Http\Controllers\ValidationController@loginForm')->name('auth');

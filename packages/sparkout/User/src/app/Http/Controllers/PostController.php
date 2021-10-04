@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use Sparkout\User\App\Models\UserPost;
 use Illuminate\Support\Facades\Http;
 
+
+
 class PostController extends Controller
 {
     //create user
@@ -68,8 +70,8 @@ class PostController extends Controller
         if ($files = $request->file('file')){
             $fileName = time() . '.' . $request->file->extension();
             $request->file->move(public_path('uploads'), $fileName);
-    
-    
+           
+           
             return response()->json(['body'=>$fileName]);
   
         }
@@ -85,5 +87,9 @@ class PostController extends Controller
             'message' => $response->json()
         ]);
    }
+
+
+
+
    
 }
